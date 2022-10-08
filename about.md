@@ -3,9 +3,27 @@ layout: page
 title: About
 ---
 
-Tailoringexpert is a multi-tenancy plattform which allows to create easily, fast and reproduceable requirement documentation specifically tailored along the characteristics of the project.
-Based on a general requirement catalog the application is able to create a set of documents based on a limited set of parameters, which characterize the specific project.
-The resulting documents will be made applicable to the project as part of the contract. This can be done fully automated using dedicated input files, or along selection of parameters or by manually activate / deactivate certain requirements. The method is in any case fully traceable, reproduceable and a quick as well as reliable method to tailor requirements to the specific characteristics of each individual project. 
+<p class="message"> 
+	Tailoringexpert is a multi tenant plattform to create easily, fast and reproduceable requirement documentation based on a 
+	general requirement catalog on a limited set of parameters, which characterize the specific project.
+</p>
+
+## Introduction
+The created project requirements are called tailoring. 
+A tailoring is initially created by evaluating a provided screeningsheet.
+The screeningsheet is a document containing all parameters needed for selecting requirements to be applicable for a project.
+Because parameters related to tenant needs tailoring creation is based on screeningsheet instead of a graphical frontend.
+
+After initial tailoring of a project, the requirements to be appicable can either be changed using the web frontend or via 
+an Excel import interface. 
+
+The documents to be created are also tentent dependend. As a miniumum plattform provided documents for the project requirement catalog 
+and also a comparison document. All plattform documents are PDF files. Templates for generating the output documents are based on HTML.
+
+It is also possible to attach files to a template. As an example you can think of an requirement input Excel that was used for tailoring.
+All files are stored in a database.
+
+## Technical implementation
 
 Tailoringexpert cosists of two modules:
 
