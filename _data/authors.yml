@@ -1,0 +1,13 @@
+# Authors
+
+Michael Bädorf:
+  name        : "Michael Bädorf"
+  bio         : "Software Archtict, Developer and Software Product Assurance Manager"
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tailoringexpert@michael-baedorf.de"
+    - label: "linkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/michael-b%C3%A4dorf-0b08881b1"

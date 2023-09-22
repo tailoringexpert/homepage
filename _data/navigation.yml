@@ -1,0 +1,88 @@
+# main links
+main:
+  - title: "Poster"
+    url: /poster/tailoring-prerequisites/
+  - title: "Workflows"
+    url: /workflows/new-project/    
+  - title: "Getting Started"
+    url: /platform/introduction/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "About"
+    url: /about/    
+
+poster:
+  - title: Poster
+    children:
+      - title: "Tailoring prerequisites"
+        url: /poster/tailoring-prerequisites/
+      - title: "Platform introduction"
+        url: /poster/platform-introduction/   
+  - title: Workflows
+    children:
+      - title: "New project"
+        url: /poster/new-project/    
+      - title: "Edit tailoring"      
+        url: /poster/edit-requirement/          
+      - title: "Create documents"
+        url: /poster/create-documents/  
+  - title: Download
+    children:
+      - title: "PDF"
+        url: /files/poster-esa-workshop-2023.pdf       
+      - title: "Zip (PDF + images)" 
+        url: /files/2023-09-12-esa-pa-workshop/esa-pa-workshop.zip
+        
+platform:
+  - title: Platform        
+    children:
+      - title: "General information"
+        url: /platform/introduction/
+      - title: "Sources"    
+        url: /platform/repositories/
+      - title: "Building and installation"    
+        url: /platform/installation/         
+      - title: "Workflows"
+        url: /workflows/new-project/ 
+            
+  - title: Meta
+    children:
+      - title: "Terms and Privacy Policy"    
+        url: /terms/
+      - title: "License"    
+        url: /docs/license/        
+
+workflows:  
+  - title: Workflows
+    children:
+      - title: "New project"
+        url: /workflows/new-project/    
+      - title: "Edit tailoring"      
+        url: /workflows/edit-requirement/          
+      - title: "Create documents"
+        url: /workflows/create-documents/  
+  
+basics:
+  - title: Basics
+    children:
+      - title: "Tailoring prerequisites"
+        url: /docs/tailoring-prerequisites/
+      - title: "Platform introduction"
+        url: /platform/introduction/   
+                 
+        
+# documentation links
+docs:
+  - title: Basics
+    children:
+      - title: "Tailoring prerequisites"
+        url: /docs/tailoring-prerequisites/
+  - title: Platform    
+    children:
+      - title: "Platform introduction"
+        url: /platform/introduction/ 
+  - title: Workflows    
+    children:
+      - title: "New Project"
+        url: /workflows/new-project/      
+      
