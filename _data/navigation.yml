@@ -2,6 +2,8 @@
 main:
   - title: "Poster"
     url: /poster/tailoring-prerequisites/
+#  - title: "Manual"
+#    url: /manual/projects/ 
   - title: "Workflows"
     url: /workflows/new-project/    
   - title: "Getting Started"
@@ -11,6 +13,49 @@ main:
   - title: "About"
     url: /about/    
 
+manual:
+  - title: Home
+    url: /manual/
+    
+  - title: Project
+    url: /manual/project
+    children:
+      - title: "Create"
+        url: "/manual/project/create"      
+      - title: "Delete"
+        url: "/manual/project/delete"            
+  
+  - title: Tailoring
+    url: /manual/tailoring
+    children:
+      - title: "Edit requirements"
+        url: /manual/tailoring/edit  
+      - title: "Create documents"
+        url: /manual/tailoring/documents
+      - title: "Compare requirements catalogs"
+        url: /manual/tailoring/compare
+      - title: "View screeningsheet"
+        url: /manual/tailoring/screeningsheet
+      - title: "View selectionvector"
+        url: /manual/tailoring/selectionvector
+      - title: "Attachments"
+        url: /manual/tailoring/attachments
+      - title: "Import requirements"
+        url: /manual/tailoring/import
+      - title: "Notes"
+        url: /manual/tailoring/notes
+      - title: "Delete"
+        url: /manual/tailoring/delete
+      - title: "Rename"
+        url: /manual/tailoring/rename
+      - title: "New"
+        url: /manual/tailoring/new      
+ 
+  - title: Advanced
+    children:
+      - title: "Copy tailoring"
+        url: /manual/tailoring/copy 
+        
 poster:
   - title: Poster
     children:

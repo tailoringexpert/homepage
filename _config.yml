@@ -142,6 +142,9 @@ collections:
   workflows:
     output: true
     permalink: /:collection/:path/    
+  manual:
+    output: true
+    permalink: /:collection/:path/ 
   poster:
     output: true
     permalink: /:collection/:path/    
@@ -155,6 +158,7 @@ defaults:
       type: posts
     values:
       layout: single
+      paginate: true
       author_profile: false
       read_time: true
       comments: false
@@ -166,6 +170,7 @@ defaults:
       type: pages
     values:
       layout: single
+      paginate: true
       author_profile: true
   # _docs
   - scope:
@@ -185,6 +190,7 @@ defaults:
       type: workflows
     values:
       layout: single
+      paginate: true          
       read_time: false
       author_profile: false
       share: false
@@ -193,12 +199,29 @@ defaults:
       toc_sticky: true      
       sidebar:
         nav: "workflows"        
+  # _manual
+  - scope:
+      path: ""
+      type: manual
+    values:
+      layout: single
+      paginate: false
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true      
+      pagination: false
+      sidebar:
+        nav: "manual" 
   # _platform
   - scope:
       path: ""
       type: platform
     values:
       layout: single
+      paginate: true
       read_time: false
       author_profile: false
       share: false
@@ -213,6 +236,7 @@ defaults:
       type: poster
     values:
       layout: single
+      paginate: true
       read_time: false
       author_profile: false
       share: false
