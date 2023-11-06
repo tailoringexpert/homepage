@@ -2,10 +2,10 @@
 main:
   - title: "Poster"
     url: /poster/tailoring-prerequisites/
-#  - title: "Manual"
-#    url: /manual/projects/ 
-  - title: "Workflows"
-    url: /workflows/new-project/    
+  - title: "Manual"
+    url: /manual/ 
+#  - title: "Workflows"
+#    url: /workflows/new-project/    
   - title: "Getting Started"
     url: /platform/introduction/
   - title: "Posts"
